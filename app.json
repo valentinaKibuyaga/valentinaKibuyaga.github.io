@@ -1,0 +1,36 @@
+{
+  "name": "valentinaKibuyaga.github.io",
+  "scripts": {
+  },
+  "env": {
+    "APP_PORT": {
+      "required": true
+    },
+    "DATABASE": {
+      "required": true
+    },
+    "HEROKU_POSTGRESQL_RED_URL": {
+      "required": true
+    },
+    "HOST": {
+      "required": true
+    },
+    "PASSWORD": {
+      "required": true
+    },
+    "USER": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+
+  ]
+}
